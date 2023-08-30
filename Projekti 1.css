@@ -70,8 +70,8 @@ section h2 {
 }
 
 #kuva1{
-    height:;
-    width:;
+    height: 150px;
+    width: 200px;
 }
 
 #kuva2{
@@ -80,18 +80,35 @@ section h2 {
 }
 
 #kuva3{
-    height:;
-    width:;
+    height: 150px;
+    width: 200px;
 }
 
-section{
+#kuva4{
+    height:150px;
+    width: 200px;
+}
 
+#facebook {
+    height: 50px;
+    width: 50px;
+}
+
+#instagram{
+    height: 50px;
+    width: 50px;
 }
 
 footer{
     margin-top:;
     display:;
 }
+
+pre {
+    float: left;
+    margin-top: 450px;
+}
+
 div{
     width:;
     margin:;
@@ -106,6 +123,3 @@ footer a {
     color: #ede0d4;
 }
 
-div h4{
-
-}
