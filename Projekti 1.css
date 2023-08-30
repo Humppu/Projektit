@@ -1,67 +1,83 @@
-body{
-    width:;
-    margin:; 
-}
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre&family=Phudu&family=Ubuntu:ital,wght@1,300&display=swap');
 
-main{
-    background-color:;
-    padding:;
+body {
+    width: 70%;
+    margin: auto;
+    background-color: #ddb892;
+    padding: 10px 20px;
 }
 
 logo{
     display: inline-block;
-    height: px;
+    height: 30px;
 }
-h1{
-    display:;
-    margin-bottom:;
-    font-family:;
-}
-
-section h2{
-    display:;
-    font-family:;
+h1 {
+    display: Inline-table;
+    margin-bottom: 10px;
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 40px;
 }
 
-h3{
-    font-family:;
-    font-size:;
-    margin-top:;
-    margin-left:;
+h3 {
+    font-family: font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    margin-top: 30px;
 }
 
 nav{
-    float:;
-    font-size:;
-    margin-top:;
+    font-size: 20px;
+    margin: -10px 0 0 200px;
 }
 
-nav a{
-
+nav li {
+    float: left;
+    padding: 0 10px;
 }
+
+ul{
+    display: inline-block;
+    list-style-type: none;
+    margin-top: -30px;
+}
+
+    nav a {
+        color: #000;
+    }
 
 section{
-    width:;
-    float:;
+    width: 50%;
+    float: left;
 }
 
-aside{
-    width:;
-    float:;
-    background-color:;
-    padding:;
-    margin-top:;
+aside {
+    width: 50%;
+    float: right;
+    background-color: #ede0d4;
+    margin-top: 30px;
+    border-radius: 10px;
 }
 
-aside img{
-    width:;
-    float:;
-    background-color:;
-    padding:;
-    margin-top:;
+h2 {
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 20px;
+    padding: 0 0 0 10px;
 }
 
-hr{
+section h2 {
+    display: inline-block;
+    font-family: 'Phudu', cursive;
+    font-size: 25px;
+}
+
+    aside img {
+        width:;
+        float:;
+        background-color: #ede0d4;
+        padding:;
+        margin-top:;
+    }
+
+section{
 
 }
 
@@ -79,8 +95,8 @@ div img{
 
 }
 
-footer a{
-    color:;
+footer a {
+    color: #ede0d4;
 }
 
 div h4{
