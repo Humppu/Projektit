@@ -1,0 +1,88 @@
+body{
+    width:;
+    margin:; 
+}
+
+main{
+    background-color:;
+    padding:;
+}
+
+logo{
+    display: inline-block;
+    height: px;
+}
+h1{
+    display:;
+    margin-bottom:;
+    font-family:;
+}
+
+section h2{
+    display:;
+    font-family:;
+}
+
+h3{
+    font-family:;
+    font-size:;
+    margin-top:;
+    margin-left:;
+}
+
+nav{
+    float:;
+    font-size:;
+    margin-top:;
+}
+
+nav a{
+
+}
+
+section{
+    width:;
+    float:;
+}
+
+aside{
+    width:;
+    float:;
+    background-color:;
+    padding:;
+    margin-top:;
+}
+
+aside img{
+    width:;
+    float:;
+    background-color:;
+    padding:;
+    margin-top:;
+}
+
+hr{
+
+}
+
+footer{
+    margin-top:;
+    display:;
+}
+div{
+    width:;
+    margin:;
+
+}
+
+div img{
+
+}
+
+footer a{
+    color:;
+}
+
+div h4{
+
+}
