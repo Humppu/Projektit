@@ -17,18 +17,21 @@ h1 {
     margin-bottom: 10px;
     font-family: 'Frank Ruhl Libre', serif;
     font-size: 40px;
+    text-decoration: underline;
 }
 
 h3 {
-    font-family: font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 30px;
     margin-top: 30px;
+    text-decoration: underline;
 }
 
 h4 {
     color: #000;
     font-size: 20px;
     margin-top: 10px;
+    text-decoration: underline;
 }
 
 #kolmas p a:link {
@@ -61,8 +64,7 @@ nav ul li a {
 }
 
 article {
-    display: inline-block;
-    
+    display: inline-block;   
 }
 
 section {
@@ -85,12 +87,14 @@ h2 {
     font-family: 'Frank Ruhl Libre', serif;
     font-size: 20px;
     padding: 0 0 0 10px;
+    text-decoration: underline;
 }
 
 section h2 {
     display: inline-block;
-    font-family: 'Phudu', cursive;
-    font-size: 25px; 
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    text-decoration: underline;
 }
 
 #kuva1{
@@ -128,10 +132,10 @@ section h2 {
 #eka {
     padding: 30px 0 0 0;
     float: left;
+    text-decoration-style: inherit;
 }
 
-#toka {
-    
+#toka { 
     margin: auto;
     padding: 30px 50px 0 50px;
     display: inline-block;
