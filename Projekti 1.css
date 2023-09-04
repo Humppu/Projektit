@@ -1,16 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre&family=Phudu&family=Ubuntu:ital,wght@1,300&display=swap');
 
 body {
-    width: 70%;
+    width: 50%;
     margin: auto;
     background-color: #ddb892;
-    padding: 10px 20px;
+    padding: 10px 20px;    
 }
 
 .logo{
     display: inline-block;
     height: 40px;
 }
+
 h1 {
     display: Inline-table;
     margin-bottom: 10px;
@@ -24,9 +25,24 @@ h3 {
     margin-top: 30px;
 }
 
+h4 {
+    color: #000;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+a:link {
+    color: #000;
+}
+
+a:visited {
+    color: #ff0000;
+}
+
 nav{
     font-size: 20px;
     margin: -10px 0 0 200px;
+    float: right;
 }
 
 nav li {
@@ -40,21 +56,29 @@ ul{
     margin-top: -30px;
 }
 
-    nav a {
-        color: #000;
-    }
+nav a {
+    color: #000;
+}
 
-section{
+article {
+    display: inline-block;
+    
+}
+
+section {
     width: 50%;
     float: left;
+    margin: 20px 0 0 0;
 }
 
 aside {
-    width: 50%;
+    width: 45%;
+    height: 600px;
     float: right;
     background-color: #ede0d4;
-    margin-top: 30px;
     border-radius: 10px;
+    padding: 0 10px 0 10px;
+    margin: 20px 0 0 0;
 }
 
 h2 {
@@ -66,17 +90,18 @@ h2 {
 section h2 {
     display: inline-block;
     font-family: 'Phudu', cursive;
-    font-size: 25px;
+    font-size: 25px; 
 }
 
 #kuva1{
-    height: 150px;
-    width: 200px;
+    height: 200px;
+    width: 100%;
 }
 
 #kuva2{
-    height: 100px;
-    width: 200px;
+    height: 250px;
+    width: 100%;
+    
 }
 
 #kuva3{
@@ -92,35 +117,40 @@ section h2 {
 #facebook {
     height: 50px;
     width: 50px;
+    padding: 100px 0 0 0;
 }
 
 #instagram{
     height: 50px;
     width: 50px;
-}
-
-footer{
-    margin-top:;
-    display:;
+    padding: 100px 0 0 0;
 }
 
 #eka {
+    padding: 30px 0 0 0;
     float: left;
-    margin-top: 600px;
 }
 
-#toka{
-  
+#toka {
+    
+    margin: auto;
+    padding: 30px 50px 0 50px;
+    display: inline-block;
 }
 
-div{
-    width:;
-    margin:;
-
+#kolmas {
+    padding: 30px 0 0 0px;
+    float: right;
+    display: ;
 }
 
-div img{
+div {
+    display: ;
+}
 
+footer {
+    margin-top:;
+    display:;
 }
 
 footer a {
