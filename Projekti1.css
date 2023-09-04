@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre&family=Phudu&family=Ubuntu:ital,wght@1,300&display=swap');
+
+body {
+    width: 50%;
+    margin: auto;
+    background-color: #ddb892;
+    padding: 10px 20px;    
+}
+
+.logo{
+    display: inline-block;
+    height: 40px;
+}
+
+h1 {
+    display: Inline-table;
+    margin-bottom: 10px;
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 40px;
+}
+
+h3 {
+    font-family: font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+h4 {
+    color: #000;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+#kolmas p a:link {
+    color: #000;
+}
+
+#kolmas p a:visited {
+    color: #ff0000;
+}
+
+nav {
+    font-size: 20px;
+    margin: -10px 0 0 200px;
+    float: right;
+}
+
+nav li {
+    float: left;
+    padding: 0 10px;  
+}
+
+ul {
+    display: inline-block;
+    list-style-type: none;
+    margin-top: -30px;  
+}
+
+nav ul li a {
+    color: #e210f2;
+}
+
+article {
+    display: inline-block;
+    
+}
+
+section {
+    width: 50%;
+    float: left;
+    margin: 20px 0 0 0;
+}
+
+aside {
+    width: 45%;
+    height: 600px;
+    float: right;
+    background-color: #ede0d4;
+    border-radius: 10px;
+    padding: 0 10px 0 10px;
+    margin: 20px 0 0 0;
+}
+
+h2 {
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 20px;
+    padding: 0 0 0 10px;
+}
+
+section h2 {
+    display: inline-block;
+    font-family: 'Phudu', cursive;
+    font-size: 25px; 
+}
+
+#kuva1{
+    height: 200px;
+    width: 100%;
+}
+
+#kuva2{
+    height: 250px;
+    width: 100%;
+    
+}
+
+#kuva3{
+    height: 150px;
+    width: 200px;
+}
+
+#kuva4{
+    height:150px;
+    width: 200px;
+}
+
+#facebook {
+    height: 50px;
+    width: 50px;
+    padding-top: 100px;
+}
+
+#instagram{
+    height: 50px;
+    width: 50px;
+}
+
+#eka {
+    padding: 30px 0 0 0;
+    float: left;
+}
+
+#toka {
+    
+    margin: auto;
+    padding: 30px 50px 0 50px;
+    display: inline-block;
+}
+
+#kolmas {
+    padding: 30px 0 0 0px;
+    float: right;
+    display: ;
+}
+
+div {
+    display: ;
+}
+
+footer {
+    margin-top:;
+    display:;
+}
+
+
+
