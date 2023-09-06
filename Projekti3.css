@@ -1,1 +1,56 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&family=Zhi+Mang+Xing&display=swap');
+
+body {
+    height: 100%;
+    font-size:;
+    font-family: 'Ubuntu', sans-serif;
+    color:;
+}
+
+
+article {
+    text-align: ;
+    padding: ;
+}
+
+article-light {
+    background-color: ;
+    color: ;
+}
+
+article-dark {
+    background-color:;
+    color:;
+}
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+p {
+
+}
+
+.pimg1, .pimg2, .pimg3 {
+
+}
+
+.pimg1 {
+
+}
+
+.pimg2 {
+
+}
+
+.pimg3 {
+
+}
