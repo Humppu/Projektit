@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+#otsikko {
+    font-family: 'Oswald', sans-serif;
+}
+
+
+.non {
+    list-style-type: none;
+}
