@@ -46,3 +46,7 @@ body {
 header p {
     font-size: 25px;
 }
+figcaption {
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+}
