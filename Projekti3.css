@@ -9,8 +9,8 @@ body {
 
 
 article {
-    text-align: ;
-    padding: ;
+    text-align: center;
+    padding: 0 0 0 0;
 }
 
 article-light {
@@ -39,18 +39,29 @@ p {
 
 }
 
-.pimg1, .pimg2, .pimg3 {
+#kuva2 {
+    
+}
 
+.pimg1, .pimg2, .pimg3 {
+    position: relative;
+    opacity: 0.90;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .pimg1 {
-
+    background-image: ;
+    min-height: ;
 }
 
 .pimg2 {
-
+    background-image: ;
+    min-height: ;
 }
 
 .pimg3 {
-
+    background-image: ;
+    min-height: ;
 }
