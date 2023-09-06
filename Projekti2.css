@@ -42,3 +42,7 @@ h1 {
 body {
     background-color: #faedcd;
 }
+
+header p {
+    font-size: 25px;
+}
