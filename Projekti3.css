@@ -18,11 +18,13 @@ body {
 .article-light {
     background-color: #A26DA4;
     color: #000;
+    text-align: center;
 }
 
 .article-dark {
     background-color: #500E52;
     color: #000;
+    text-align: center;
 }
 
 h1 {
