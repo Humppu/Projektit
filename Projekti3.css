@@ -25,9 +25,14 @@ body {
     color: #000;
 }
 
+h1 {
+    text-align: center;
+}
+
 h2 {
     font-family: 'Zhi Mang Xing', cursive;
     font-size: 30px;
+    text-align: center;
 }
 
 h3 {
