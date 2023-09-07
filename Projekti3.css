@@ -14,13 +14,13 @@ article {
 }
 
 article-light {
-    background-color: ;
-    color: ;
+    background-color: #d7cdcd;
+    color: #000;
 }
 
 article-dark {
-    background-color:;
-    color:;
+    background-color: #313131;
+    color: #fff;
 }
 
 h1 {
