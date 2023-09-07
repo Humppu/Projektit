@@ -10,17 +10,17 @@ body {
     margin: 0; 
 }
 
-article {
+.article {
     text-align: center;
     padding: 50px 50px;
 }
 
-article-light {
+.article-light {
     background-color: #A26DA4;
     color: #000;
 }
 
-article-dark {
+.article-dark {
     background-color: #500E52;
     color: #000;
 }
@@ -34,7 +34,7 @@ h3 {
     text-align: center;
 }
 
-p {
+.p {
     text-align: center;
     width: 100%;
     color: #000;
@@ -58,7 +58,7 @@ p {
     margin-right: auto;
 }
 
-.pimg1, .pimg2, .pimg3 {
+#kuva1, #kuva2, #kuva3 {
     position: relative;
     opacity: 0.90;
     background-position: center;
@@ -67,23 +67,23 @@ p {
     background-attachment: fixed;
 }
 
-.pimg1 {
+#kuva1 {
     background-image: url('file:///C:\Users\esko.sailakivi\Source\Repos\Humppu\Projektit\harrastukset.jpg');
     min-height: 100%;
 }
 
-.pimg2 {
+#kuva2 {
     background-image: url('file:///C:\Users\esko.sailakivi\Source\Repos\Humppu\Projektit\harrastukset2.jpg');
     min-height: 400px;
 }
 
-.pimg3 {
+#kuva3 {
     background-image: url('file:///C:\Users\esko.sailakivi\Source\Repos\Humppu\Projektit\harrastukset3.jpg');
     min-height: 400px;
 }
 
 @media(max-width:570px){
-    .pimg1, .pimg2, .pimg3,{
+    .kuva1, .kuva2, .kuva3,{
         background-attachment: fixed;
     }
 }
