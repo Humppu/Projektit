@@ -35,7 +35,8 @@ body {
 h1 {
     text-align: center;
     margin-top: -74px;
-    color: #000;
+    color: #fff;
+    position: relative;
 }
 
 h2 {
@@ -66,7 +67,8 @@ h3 {
 
 #lähde {
     font-size: 10px;
-    color: #000;
+    color: #fff;
+    position: relative;
 }
 
 #kuva1 {
