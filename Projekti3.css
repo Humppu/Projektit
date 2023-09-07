@@ -51,6 +51,12 @@ h3 {
     font-size: 10px;
 }
 
+#kuva1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #kuva2 {
     display: block;
     margin-left: auto;
