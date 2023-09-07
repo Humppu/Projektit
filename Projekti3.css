@@ -4,9 +4,8 @@ body {
     height: 100%;
     font-size:;
     font-family: 'Ubuntu', sans-serif;
-    color:;
+    color: #000;
 }
-
 
 article {
     text-align: center;
@@ -15,12 +14,12 @@ article {
 
 article-light {
     background-color: #d7cdcd;
-    color: #000;
+    color: #666;
 }
 
 article-dark {
     background-color: #313131;
-    color: #fff;
+    color: #ddd;
 }
 
 h1 {
@@ -32,15 +31,17 @@ h2 {
 }
 
 h3 {
-
+    text-align: center;
 }
 
 p {
-
+    text-align: center;
 }
 
 #kuva2 {
-    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .pimg1, .pimg2, .pimg3 {
