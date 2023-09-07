@@ -29,16 +29,21 @@ body {
     text-align: center;
     height: 150px;
     padding: 20px;
+    margin-top: -18px;
 }
 
 h1 {
     text-align: center;
+    margin-top: -74px;
+    color: #000;
 }
 
 h2 {
     font-family: 'Zhi Mang Xing', cursive;
     font-size: 30px;
     text-align: center;
+    color: #000;
+   
 }
 
 h3 {
@@ -48,7 +53,7 @@ h3 {
 .p {
     text-align: center;
     width: 100%;
-    color: #000;
+    color: #fff;
     font-size: 25px;
     position: absolute;
 }
@@ -58,8 +63,8 @@ h3 {
 }
 
 #kuva1 {
-    display: initial; 
-    background-image: url('file:///C:\Users\esko.sailakivi\Source\Repos\Humppu\Projektit\harrastukset.jpg');
+    display: block;
+    background-image: url('file:///C:\Users\saila\Source\Repos\Humppu\Projektit\neon.jpg');
     height: 100%;
     width: 100%;
 }
@@ -93,6 +98,6 @@ h3 {
 
 @media(max-width:570px){
     #kuva1, #kuva2, #kuva3,{
-        background-attachment: fixed;
+        background-attachment: scroll;
     }
 }
