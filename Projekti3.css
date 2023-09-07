@@ -58,8 +58,15 @@ h3 {
     position: absolute;
 }
 
+#tekijät {
+    color: #fff;
+    margin-top: -50px;
+    position: relative;
+}
+
 #lähde {
     font-size: 10px;
+    color: #000;
 }
 
 #kuva1 {
