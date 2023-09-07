@@ -57,18 +57,24 @@ h3 {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    background-image: url('file:///C:\Users\esko.sailakivi\Source\Repos\Humppu\Projektit\harrastukset.jpg');
+    min-height: 100%;
 }
 
 #kuva2 {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    background-image: url('file:///C:\Users\esko.sailakivi\Source\Repos\Humppu\Projektit\harrastukset2.jpg');
+    min-height: 400px;
 }
 
 #kuva3 {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    background-image: url('file:///C:\Users\esko.sailakivi\Source\Repos\Humppu\Projektit\harrastukset3.jpg');
+    min-height: 400px;
 }
 
 #kuva1, #kuva2, #kuva3 {
@@ -80,23 +86,8 @@ h3 {
     background-attachment: fixed;
 }
 
-#kuva1 {
-    background-image: url('file:///C:\Users\esko.sailakivi\Source\Repos\Humppu\Projektit\harrastukset.jpg');
-    min-height: 100%;
-}
-
-#kuva2 {
-    background-image: url('file:///C:\Users\esko.sailakivi\Source\Repos\Humppu\Projektit\harrastukset2.jpg');
-    min-height: 400px;
-}
-
-#kuva3 {
-    background-image: url('file:///C:\Users\esko.sailakivi\Source\Repos\Humppu\Projektit\harrastukset3.jpg');
-    min-height: 400px;
-}
-
 @media(max-width:570px){
-    .kuva1, .kuva2, .kuva3,{
+    #kuva1, #kuva2, #kuva3,{
         background-attachment: fixed;
     }
 }
