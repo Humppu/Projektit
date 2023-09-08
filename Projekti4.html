@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Projekti4</title>
+    <link href="Projekti4.css" rel="stylesheet" />
+
+</head>
+<body>
+    <main>
+
+        <h1>Ilmoittautumislomake.</h1>
+
+        <ul>
+            <li>Tulossa olevien koulutusten ja tapahtumien kutsut julkaistaan etusivulla.</li>
+            <li>Ilmoita myös sähköpostiosoitteesi ja tarkista sen oikeinkirjoitus, lähetämme kurssivahvistukset sähköpostilla kurssin ilmoittautumisajan päätyttyä. Heti lomakkeen lähetyksen jälkeen saat sähköpostiin automaattisen kuittauksen ilmoittautumisen perille tulosta.</li>
+            <li>Jos ilmoittautumisaika on umpeutunut tai se on täynnä, kurssia ei löydy enään alasvetovalikosta. Toimistolta voi tiedustella vielä tilannetta, toimisto@keuda.fi.</li>
+            <li>Luethan ilmoittautumisehdot.</li>
+            <li>Tutustuthan myös ohjeistukseen tilaisuuksiin osallistujille!</li>
+        </ul>
+
+        <h1>Koulutukseen ilmoittautuminen.</h1>
+
+        <form>
+            <label for="Sukunimi"><b>Sukunimi:</b></label>
+            <input type="text" name="Sukunimi" />
+
+            <label for="Etunimi"><b>Etunimi:</b></label>
+            <input type="text" name="Etunimi" />
+
+            <label for="Puhelin"><b>Puhelin:</b></label>
+            <input type="text" name="Puhelin" />
+
+            <label for="Osoite"><b>Osoite:</b></label>
+            <input type="text" name="Osoite" />
+
+            <label for="Sähköposti"><b>Sähköposti:</b></label>
+            <input type="email" name="Sähköposti" />
+
+            <label for="Syntymäaika"><b>Syntymäaika:</b></label>
+            <input type="text" name="Syntymäaika" />
+
+            <label for="Ammattinimike"><b>Ammattinimike:</b></label>
+            <select id="nimike">
+                <option value="työtön">Työtön.</option>
+                <option value="opiskelija">Opiskelija.</option>
+                <option value="töissä">Töissä.</option>
+            </select>
+
+            <label for="työ/oppi"><b>Työnantaja/Oppilaitos:</b></label>
+            <input type="text" name="Työnantaja/Oppilaitos" />
+
+            <label for="Tapahtuma"><b>Ilmoittaudun:</b></label>
+            <input type="checkbox" name="HTML" />
+
+            <label for="HTML">HTML-koulutukseen:</label>
+            <input type="checkbox" name="HTML" />
+
+            <label for="CSS">CSS-koulutukseen:</label>
+            <input type="checkbox" name="CSS" />
+
+            <label for="JavaScript">JavaScript-koulutukseen:</label>
+            <input type="checkbox" name="JavaScript" />
+
+            <label for="itse">Maksan itse.</label>
+            <input type="radio" name="maksu" id="itse">
+
+            <label for="yritys">Työnantaja.</label>
+            <input type="radio" name="maksu" id="yritys">
+
+            <label for="koulu">Koulu.</label>
+            <input type="radio" name="maksu" id="koulu">
+
+            <label for="lahjakortti">Minulla on lahjakortti.</label>
+            <input type="radio" name="maksu" id="lahjakortti.">
+
+            <label for="taso"><b>Lähtötasosi:</b></label>
+            <select id="taso">
+                <option value="aloittelija">Aloittelija.</option>
+                <option value="koodannut">Jonkin aikaa koodannut.</option>
+                <option value="ammattilainen">Ammattilainen.</option>
+            </select>
+
+            <label for="lisätiedot"><b>Lisätiedot/Erikoisruokavaliot:</b></label>
+            <textarea name="lisätiedot/Erikoisruokavaliot"></textarea>
+            <button>Lähetä lomake.</button>
+
+        </form>
+
+    </main>
+</body>
+</html>
