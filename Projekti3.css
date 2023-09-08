@@ -43,8 +43,7 @@ h2 {
     font-family: 'Zhi Mang Xing', cursive;
     font-size: 30px;
     text-align: center;
-    color: #000;
-   
+    color: #000; 
 }
 
 h3 {
@@ -96,9 +95,9 @@ h3 {
     width: 100%;
 }
 
-#kuva1, #kuva2, #kuva3 {
+#kuva1, #kuva2, #kuva3, {
     position: relative;
-    opacity: 0.90;
+    opacity: 0.9;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
