@@ -1,25 +1,75 @@
 body {
-    width: ;
-    margin: ;
-    background-image: ;
-    background-repeat: ;
-    background-color: ;
+    width: 50%;
+    margin: auto;
+    background-image: url("neon.jpg");
 }
 
 main {
-    
+    margin-bottom: 30px;
+    height: 80%;
+    background-color: #808080;
 }
 
 h1 {
-    
+    padding: 25px 10px 10px 25px;
 }
 
 label {
-   
+    display: inline-block;
+    width: 300px;
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 25px;
+    margin-top: 5px;
 }
 
+input {
+    height: 25px;
+    width: 40%;
+    border-radius: 10px;
+}
+
+input {
+    margin-left: 50px;
+    margin-left: 3px;
+}
+     
 form {
-    
+    padding-bottom: 20px;
 }
 
+ul {
+    padding: 25px 0 0 30px;
+    font-size: 25px;
+}
 
+#nimike {
+    width: 40%;
+    margin-left: 330px;
+    font-size: 20px;
+}
+
+#taso {
+    font-size: 20px;
+}
+
+#taso {
+    width: 40%;
+    margin-left: 340px;
+}
+
+textarea {
+    width: 40%;
+    margin-left: 340px;
+    margin-top: -30px; 
+}
+
+button {
+    width: 150px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #ffd800;
+    margin-left: 290px;
+    margin-top: 20px;
+    font-size: 25px;
+}
