@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<Link href="Lomakeharjoitus.css" type="text/css" rel="stylesheet" />
+<title>Lomake</title>
+
+</head>
+<body>
+<main>
+<div class="ex1">	<h1>Lomake harjoitus</h1>
+	<form>
+			<p  id="etu">Anna etunimesi: <input id="enimi" type="text"></p>
+			<p  id="suku">Anna sukunimesi: <input id="snimi" type="text"></p>
+		</div>
+		<div class="ex2">
+			<p>Tulin tänään kouluun:</p>
+				<input type="radio" name="kouluun" value="Jalan">Jalan<br />
+				<input type="radio" name="kouluun" value="Autolla">Autolla<br />
+				<input type="radio" name="kouluun" value="Junalla">Junalla<br />
+				<input type="radio" name="kouluun" value="Bussilla">Bussilla<br />
+				<input type="radio" name="kouluun" value="Mopolla">Mopolla<br />
+				<input type="radio" name="kouluun" value="Muu">Muu<br />
+		</div>
+		<div class="ex3">
+			<p>Lempituntini koulussa on:</p>
+			<select placeholder="Valitse" id="lempi" name="lempi">
+				<option value="">(Valitse)</option>
+				<option value="biologia">Biologia</option>
+                <option value="englanti">Englanti</option>
+                <option value="historia">Historia</option>
+                <option value="matematiikka">Matematiikka</option>
+                <option value="äidinkieli">Äidinkieli</option>
+			</select></br>
+	</form> 
+		</div>
+			<button id="butt" onclick="laheta()">Lähetä</button>
+</main>
+<script type="text/javascript" src="Lomakeharjoitus.js"></script>
+</body>
+</html>
+
