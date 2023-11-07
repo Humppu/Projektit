@@ -1,0 +1,25 @@
+form {
+    background-color: #CCCCFF;
+    width: 400px;
+    margin: 0 auto 0 auto;
+    border-radius: 5px;
+    padding: 5px 0 5px 0;
+}
+
+#etunimi {
+    margin: 10px; 
+}
+
+button {
+    margin-top: 10px; 
+}
+
+#tiedot {
+    width:400px; 
+    background-color:#808080; 
+    color: black; 
+    margin: 0 auto 0 auto; 
+    border-radius: 5px; 
+    text-align: center; 
+     
+}

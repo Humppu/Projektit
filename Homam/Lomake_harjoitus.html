@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Lomake harjoitus</title>
+		<meta charset="8"> 
+		<link rel = "stylesheet" href = "Lomake_harjoitus.css"> 
+		<script type="text/javascript" src = "Lomake_harjoitus.js"></script>
+	</head> 
+	<body>
+		<form action = "index.html" method = "post"> 
+				<fieldset> 
+				<table> 
+					<tr> 
+						<td>
+							<label for = "Etunimi">Anna etunimi:</label>
+						</td> 
+						<td>
+							<input type = "text" id = "etunimi" >
+						</td> 
+					</tr>
+				</table>
+				<table>
+					<tr>
+						<td>
+							<label for = "Sukunimi">Anna sukunimi:</label>
+						</td>
+						<td> 
+							<input type = "text" id = "sukunimi" >
+						</td> 
+					</tr> 
+				</table> 
+				</fieldset>
+				<fieldset>
+					<p>Tulin kouluun t‰n‰‰n: </p> 
+						<input type = "radio" name = "kuljin" value = "jalan">Jalan<br/> 
+						<input type = "radio" name = "kuljin" value = "autolla">Autolla<br/> 
+						<input type = "radio" name = "kuljin" value = "junalla">Junalla<br/> 
+						<input type = "radio" name = "kuljin" value = "bussilla">Bussilla<br/> 
+						<input type = "radio" name = "kuljin" value = "mopolla">Mopolla<br/> 
+						<input type = "radio" name = "kuljin" value = "uiden">Uiden<br/> 
+				</fieldset> 
+				<fieldset>
+					<p>Lempituntini koulussa on: </p> 
+						<select id = "tunti"> 
+							<option value = "Valitse">(Valitse alla olevista vaihtoehdoista)</option> 
+							<option value = "Tietotekniikka">Tietotekniikka</option>
+							<option value = "Matematiikka">Matematiikka</option> 
+							<option value = "Liikunta">Liikunta</option> 
+							<option value = "Englanti">Englanti</option> 
+							<option value = "Ruotsi">Ruotsi</option> 
+							<option value = "Historia">Historia</option> 
+						</select>
+							<br/>
+						<input type = "button" name = "button" onclick = "laheta()" value="Laheta"/>
+				</fieldset> 
+		</form> 
+		<p id="tiedot"></p>
+	</body>
+</html>
