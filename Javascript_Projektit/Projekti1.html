@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Projekti1</title>
+		<meta charset="8"> 
+		<link rel = "stylesheet" href = "Projekti1.css"> 
+		<script type="text/javascript" src = "Projekti1.js"></script>
+	</head> 
+	<body>
+		<form action = "index.html" method = "post"> 
+				<h1>Kirjautumislomake</h1>
+				<p>Nimi: <br/> <input type="text" id="nimi"></p>
+				<p>Salasana: <br/><input type="text" id="salasana"></p>
+
+					<p>Valitsemaasi tietoa ei n‰ytet‰ muille.<br/>
+					Millainen tietokoneen k‰ytt‰j‰ olet?</p>
+						<input type = "radio" name = "tietokone" value = "pelaaja">Pelaaja<br/>
+						<input type = "radio" name = "tietokone" value = "opiskelija">Opiskelija<br/> 
+						<input type = "radio" name = "tietokone" value = "harvoin">K‰yt‰n tietokonetta harvoin<br/> 
+					
+					<p>Miten hyvin olet oppinut tekem‰‰n nettisivuja?</P>
+					<input type = "checkbox" name = "nettisivu" value = "hyvin">Hyvin<br/>
+					<input type = "checkbox" name = "nettisivu" value = "kohtalaisesti">Kohtalaisesti<br/>
+					<input type = "checkbox" name = "nettisivu" value = "tyydyttava">Tyydytt‰v‰sti<br/>
+
+					<p>Lempiaineeni on koulussa: </p> 
+						<select id = "tunti"> 
+							<option value = "Valitse aine"> Valitse aine</option> 
+							<option value = "Tietotekniikka">Tietotekniikka</option>
+							<option value = "Matematiikka">Matematiikka</option> 
+							<option value = "Liikunta">Liikunta</option> 
+							<option value = "Englanti">Englanti</option> 
+							<option value = "Ruotsi">Ruotsi</option> 
+							<option value = "Historia">Historia</option> 
+						</select>
+
+					<p>Kerro lyhyesti miten kehitt‰isit opiskeluja?</p> 
+					<textarea name="teksti" rows = "10" cols="40"></textarea>
+							<br/>
+						<input type = "button" name = "button" onclick = "laheta()" value="Laheta"/>
+		</form> 
+		<p id="tiedot"></p>
+	</body>
+</html>
