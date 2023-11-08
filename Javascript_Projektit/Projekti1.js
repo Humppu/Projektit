@@ -5,7 +5,7 @@ function laheta() {
     var kone = "";
     var nettisivu = documentGetElementById("sivu").value;
     var sivu = "";
-    var lempi = var lempi = document.getElementById("tunti");
+    var lempi = document.getElementById("tunti");
     var tunti = "";
     var teksti = document.getElementById("teksti");
 
