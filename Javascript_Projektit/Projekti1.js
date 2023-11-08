@@ -25,5 +25,22 @@ function laheta() {
 
         }
     }
-
+    if (nimi.length < 1) {
+        alert("Anna nimesi, kiitos!")
+    }
+    else if (salasana.legth < 1) {
+        alert("Anna salasana, kiitos!")
+    }
+    else if (kone.length < 1) {
+        alert("Valitse millainen koneenkäyttäjä olet")
+    }
+    else if (sivu.length < 1) {
+        alert("Kerro miten hyvin osaat tehdä nettisivuja")
+    }
+    else if (tunti.length < 1) {
+        alert("Kerro lempituntisi koulussa, kiitos!")
+    }
+    else if (teksti.length < 1) {
+        alert("Kerro lyhyesti miten parantaisit opiskeluja, kiitos!")
+    }
 }
