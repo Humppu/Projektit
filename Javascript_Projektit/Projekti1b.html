@@ -7,11 +7,13 @@
 		<script type="text/javascript" src="Projekti1b.js"></script>
 	</head> 
 	<body>
+
 		<h1 id="otsikko">Kyselylomake.</h1>
 		<form id="kyselylomake">
 			<p id="kuvaus"></p>
 
 			<label>
+
 				<p>Nimi: <input type="text" id="nimi"></p>
 				<p>Sähköposti: <input type="text" id="email"></p>
 				<p>Ikä: <input type="text" id="ika"</p>
@@ -44,12 +46,16 @@
 				<input type="checkbox" value="omaksi iloksi">Omaksi iloksi.<br/>
 				<input type="checkbox" value="kilpailun takia">Kilpailun takia.<br/>
 				<input type="checkbox" value="kuntoilun takia">Kuntoilun takia.<br/>
+				<input type="checkbox" value="joukkueen takia">Joukkueen takia.<br/>
+				<input type="checkbox" value="en osaa sanoa">En osaa sanoa.<br/>
 
 
+				<p>Lisäkommentteja.</p> 
+				<textarea id="lisä" name="teksti" rows = "10" cols="50"></textarea>
+					
 			</label>
 					
-
-
+			<input type="button" id="laheta" onclick="laheta()" value="Lähetä"/>
 
 		</form> 
 		
