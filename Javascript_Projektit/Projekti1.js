@@ -22,8 +22,8 @@ function laheta() {
     for (var t = 1; a < lempi.length; t++) {
         if (lempi[a].selected) {
             tunti = lempi[a].value;
-
         }
+
     }
     if (nimi.length < 1) {
         alert("Anna nimesi, kiitos!")
@@ -40,7 +40,7 @@ function laheta() {
     else if (tunti.length < 1) {
         alert("Kerro lempituntisi koulussa, kiitos!")
     }
-    else if (teksti.length < 1) {
+    else if (document.getElementById("teksti").value.trim() == "") {
         alert("Kerro lyhyesti miten parantaisit opiskeluja, kiitos!")
     }
 }
