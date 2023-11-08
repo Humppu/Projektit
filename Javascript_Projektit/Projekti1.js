@@ -7,5 +7,23 @@ function laheta() {
     var sivu = "";
     var lempi = var lempi = document.getElementById("tunti");
     var tunti = "";
-    var teksti =
+    var teksti = document.getElementById("teksti");
+
+    for (var k = 0; k < tietokone.length; k++) {
+        if (tietokone[k].checked) {
+            kone = tietokone[k].value;
+        }
+    }
+    for (var t = 1; t < nettisivu.length; t++) {
+        if (nettisivu[t].selected) {
+            sivu = nettisivu[t].value;
+        }
+    }
+    for (var t = 1; a < lempi.length; t++) {
+        if (lempi[a].selected) {
+            tunti = lempi[a].value;
+
+        }
+    }
+
 }
