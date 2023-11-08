@@ -17,8 +17,15 @@ h1 {
     font-family: 'Oswald', sans-serif;
 }
 
-input{
-    margin: auto; 
+select {
+    border: 0;
+    border-bottom: 2px solid black;
+    background: transparent;
+}
+
+input {
+    margin: auto;
+    background: transparent;
 }
 
 #nimi{
@@ -45,9 +52,11 @@ input{
     font-size: 20px;
 }
 
-#lisä{
+#lisä {
     font-size: 15px;
     border-radius: 10px;
+    border: 2px solid black;
+    background: transparent;
 }
 
 #laheta{
