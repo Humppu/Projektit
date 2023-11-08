@@ -4,7 +4,7 @@
 		<title>Projekti1</title>
 		<meta charset="8"> 
 		<link rel = "stylesheet" href="Projekti1.css"> 
-		<script type="text/javascript" src="Projekti1.js"></script>
+		<script type="text/javascript" src="Projekti2.js"></script>
 	</head> 
 	<body>
 		<form action = "index.html" method = "post"> 
@@ -14,30 +14,29 @@
 
 					<p>Valitsemaasi tietoa ei näytetä muille.<br/>
 					Millainen tietokoneen käyttäjä olet?</p>
-						<input type = "radio" name = "tietokone" value = "pelaaja">Pelaaja<br/>
-						<input type = "radio" name = "tietokone" value = "opiskelija">Opiskelija<br/> 
-						<input type = "radio" name = "tietokone" value = "harvoin">Käytän tietokonetta harvoin<br/> 
+						<input type="radio" name="tietokone" value="pelaaja">Pelaaja<br/>
+						<input type="radio" name="tietokone" value="opiskelija">Opiskelija<br/> 
+						<input type="radio" name="tietokone" value="harvoin">Käytän tietokonetta harvoin<br/> 
 					
 					<p>Miten hyvin olet oppinut tekemään nettisivuja?</P>
-					<input type = "checkbox" name = "nettisivu" value = "hyvin">Hyvin<br/>
-					<input type = "checkbox" name = "nettisivu" value = "kohtalaisesti">Kohtalaisesti<br/>
-					<input type = "checkbox" name = "nettisivu" value = "tyydyttava">Tyydyttävästi<br/>
+					<input type="checkbox" name="nettisivu" value="hyvin">Hyvin<br/>
+					<input type="checkbox" name="nettisivu" value="kohtalaisesti">Kohtalaisesti<br/>
+					<input type="checkbox" name="nettisivu" value="tyydyttava">Tyydyttävästi<br/>
 
 					<p>Lempiaineeni on koulussa: </p> 
-						<select id = "tunti"> 
-							<option value = "Valitse aine"> Valitse aine</option> 
-							<option value = "Tietotekniikka">Tietotekniikka</option>
-							<option value = "Matematiikka">Matematiikka</option> 
-							<option value = "Liikunta">Liikunta</option> 
-							<option value = "Englanti">Englanti</option> 
-							<option value = "Ruotsi">Ruotsi</option> 
-							<option value = "Historia">Historia</option> 
+						<select id="tunti" name="tunti"> 
+						<option value="">(Valitse)</option>
+						<option value="biologia">Biologia</option>
+						<option value="englanti">Englanti</option>
+						<option value="historia">Historia</option>
+						<option value="matematiikka">Matematiikka</option>
+						<option value="äidinkieli">Äidinkieli</option>
 						</select>
 
 					<p>Kerro lyhyesti miten kehittäisit opiskeluja?</p> 
-					<textarea name="teksti" rows = "10" cols="40"></textarea>
+					<textarea id="teksti" name="teksti" rows = "10" cols="40"></textarea>
 							<br/>
-						<input type = "button" name = "button" onclick = "laheta()" value="Lähetä"/>
+						<input type="button" name="button" onclick="laheta()" value="Lähetä"/>
 		</form> 
 		<p id="tiedot"></p>
 	</body>
