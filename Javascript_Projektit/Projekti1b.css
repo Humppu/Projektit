@@ -1,0 +1,47 @@
+form {
+    background-color: #f810c0;
+    width: 500px;
+    margin: 0 auto 0 auto;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+h1{
+    text-align: center;
+}
+
+textarea{
+    margin: auto;
+}
+
+#nimi{
+    font-size: 20px;
+}
+
+#email {
+    font-size: 20px;
+}
+
+#ika {
+    font-size: 20px;
+}
+
+#pudotus{
+    font-size: 15px;
+}
+
+#laji{
+    font-size: 20px;
+}
+
+#syy{
+    font-size: 20px;
+}
+
+#lisä{
+    font-size: 15px;
+}
+
+#laheta{
+    font-size: 15px;
+}
