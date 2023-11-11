@@ -9,14 +9,14 @@
 	<body>
 
 		<h1 id="otsikko">Kyselylomake.</h1>
-		<form id="kyselylomake">
+		<form id="kyselylomake" name="lomake">
 			<p id="kuvaus"></p>
 
 			<label>
 
-				<p id="nimi">Anna nimesi: <input type="text" ></p>
-				<p id="email">Anna sähköpostisi: <input type="text" ></p>
-				<p id="ika">Kerro ikäsi: <input type="text"></p>
+				<p id="nimi">Anna nimesi: <input name="name" type="text" ></p>
+				<p id="email">Anna sähköpostisi: <input name="email" type="email" ></p>
+				<p id="ika">Kerro ikäsi: <input name="numb" type="text"></p>
 			
 				<p id="pudotus">Valitse tasosi: </p> 
 
@@ -30,8 +30,12 @@
 				<option value="en osaa sanoa">En osaa sanoa</option>
 				
 				</select>
-				
+
+				<p></p>
+
 				<p id="laji">Valitse mieluisimmat urheilulajit.<br/>
+
+				<p></p>
 
 				<input type="radio"  value="jalkapallo">Jalkapallo.<br/>
 				<input type="radio"  value="jääkiekko">Jääkiekko.<br/> 
