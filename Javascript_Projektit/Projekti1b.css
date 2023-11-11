@@ -3,7 +3,7 @@
 form {
     background-color: #ffd800;
     width: 500px;
-    margin: 0 auto 0 auto;
+    margin: 0 auto;
     border-radius: 10px;
     padding: 10px;
 }
@@ -17,11 +17,6 @@ h1 {
     font-family: 'Oswald', sans-serif;
 }
 
-p {
-   display: grid;
-   
-}
-
 select {
     border: 0;
     border-bottom: 2px solid black;
@@ -33,7 +28,12 @@ input {
     background: transparent;
 }
 
-#nimi{
+#info {
+    display: flow-root;
+    margin-top: -22px;
+}
+
+#nimi {
     font-size: 20px;
 }
 

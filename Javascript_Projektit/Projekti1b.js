@@ -1,6 +1,6 @@
-function emailIsValid(email) {
-    var sahkoposti = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
-    if (emailIsValid(sahkoposti)) { 
+function laheta(email) {
+    var email = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+    if (emailIsValid(email)) { 
     }
     else {
         alert("Anna oikea sähköpostiosoitteesi");
@@ -10,9 +10,9 @@ function emailIsValid(email) {
 
 }
 
-function validateForm(numb) {
+function laheta(numb) {
 
-    var z = document.forms["lomake"]["numb"].value;
+    var z = document.label["lomake"]["numb"].value;
 
     if (!/^[0-9]+$/.test(z)) {
         alert("Syötä ikä numeroilla!")
@@ -20,7 +20,7 @@ function validateForm(numb) {
 
 }
 
-function validateform(name) {
+function laheta(name) {
     var name = document.getElementById.value;
    
     if (name == null || name == "") {
