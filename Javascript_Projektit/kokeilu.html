@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Projekti1b</title>
+		<meta charset="8"> 
+		<link rel = "stylesheet" href="kokeilu.css"> 
+		<script type="text/javascript" src="kokeilu.js"></script>
+	</head> 
+	<body>
+
+		<h1 id="otsikko">Kyselylomake.</h1>
+				<p id="kuvaus"></p>
+			<form action = "index.html" method = "post" id="kyselylomake" name="lomake"> 					
+				<p id="nimi">Anna nimesi: <br/> <input type="text" id="name"></p> <!--Jos annan liian lyhyen nimen, näen HTML5-vahvistusvirheen.-->
+				<p id="email">Anna sähköpostisi: <br/> <input type="text" id="mail"></p> <!--Jos annan sähköpostiviestin, jota ei ole muotoiltu oikein, näen HTML5-vahvistusvirheen.-->
+				<p id="ika">Kerro ikäsi: <br/><input type="text" id="age"></p> <!--Jos annan muita kuin numeroita edelliseen kenttään, näen HTML5-vahvistusvirheen. Jos annan numeroita numeron syöttöalueen ulkopuolella, jotka on määrittelty min- ja max-määritteillä, näen HTML5-vahvistusvirheen.-->
+<!--Käyttäjän tarina # 10: Nimen, sähköpostiosoitteen ja numeron syöttökentissä lomakkeen sisällä näen vastaavat otsikot, jotka kuvaavat kunkin kentän tarkoitusta seuraavilla tunnuksilla: id = "nimisyotto", id = "emailsyotto" , ja id = "ikasyotot".-->
+
+					<p id="pudotus">Valitse tasosi: </p> 
+						<select id="drop" name="pudotus"> 
+						<option value="">(Valitse)</option>
+						<option value="aloittelija">Aloittelija</option>
+						<option value="jatkava">Jatkava</option>
+						<option value="vähän">Vähän aikaa harrastanut</option>
+						<option value="ammattilainen">Ammattilainen</option>
+						<option value="en osaa sanoa">En osaa sanoa</option>
+						</select>		
+
+					<p id="laji">Valitse mieluisimmat urheilulajit.</p>
+						<input type="radio" name="laji" value="jalkapallo">Jalkapallo.<br/>
+						<input type="radio" name="laji" value="jääkiekko">Jääkiekko.<br/> 
+						<input type="radio" name="laji" value="tennis">Tennis.<br/> 
+						<input type="radio" name="laji" value="pingis">Pingis.<br/>
+						<input type="radio" name="laji" value="voimistelu">Voimistelu.<br/>
+						<input type="radio" name="laji" value="luistelu">Luistelu.<br/>
+						<input type="radio" name="laji" value="uinti">Uinti.<br/>
+						<input type="radio" name="laji" value="koripallo">Koripallo.<br/>
+					
+					<p id="syy">Minkä takia harrastat?</p>
+						<input type="checkbox" name="miksi" value="omaksi iloksi">Omaksi iloksi.<br/>
+						<input type="checkbox" name="miksi" value="kilpailun takia">Kilpailun takia.<br/>
+						<input type="checkbox" name="miksi" value="kuntoilun takia">Kuntoilun takia.<br/>
+						<input type="checkbox" name="miksi" value="joukkueen takia">Joukkueen takia.<br/>
+						<input type="checkbox" name="miksi" value="en osaa sanoa">En osaa sanoa.<br/>
+
+
+					<p>Lisäkommentteja.</p> 
+					<textarea id="teksti" name="teksti" rows = "10" cols="40"></textarea><br/>
+						<input type="button" name="button" onclick="laheta()" value="Lähetä"/>
+			</form> 
+		<p id="tiedot"></p>
+	</body>
+</html>
