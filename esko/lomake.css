@@ -1,0 +1,22 @@
+fieldset {
+    width: 25%;
+    background-color: #00ffff;
+}
+
+#enimi {
+    margin: 10px;
+}
+
+#eka {
+    padding: 10px;
+    width: 40%;
+}
+
+#toka {
+    padding: 10px;
+}
+
+#kolmas {
+    margin-top: 2.5px;
+    padding: 15px;
+}

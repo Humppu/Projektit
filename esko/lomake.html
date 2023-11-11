@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <title>Lomakeharjoitus</title>
+    <link href="lomake.css" rel="stylesheet" />
+</head>
+<body>
+    <main>
+
+        <h1>Lomakeharjoitus</h1>
+
+        <fieldset>
+            <form>
+                <p>Anna etunimesi: <input type="text" id="enimi" /></p>
+                <p>Anna sukunimesi: <input type="text" id="snimi" /></p>
+            </form>
+        </fieldset>
+
+        <fieldset>
+            <form id="toka">
+                <p>Tulin tänään kouluun:</p>
+                <input type="radio" name="kouluun" value="jalan">Jalan<br />
+                <input type="radio" name="kouluun" value="autolla">Autolla<br />
+                <input type="radio" name="kouluun" value="junalla">Junalla<br />
+                <input type="radio" name="kouluun" value="bussilla">Bussilla<br />
+                <input type="radio" name="kouluun" value="mopolla">Mopolla<br />
+                <input type="radio" name="kouluun" value="potkulaudalla">Potkulaudalla<br />
+            </form>
+        </fieldset>
+
+        <fieldset>
+            <form id="kolmas">
+                <p>Lempituntini koulussa on:</p>
+                <p>
+                    <select id="lempi">
+                        <option value=""> Valitse alta oikea vaihtoehto: </option>
+                        <option value="historia">Historia</option>
+                        <option value="matematiikka">Matematiikka</option>
+                        <option value="englanti">Englanti</option>
+                        <option value="ruotsi">Ruotsi</option>
+                        <option value="kotitalous">Kotitalous</option>
+                        <option value="äidinkieli">Äidinkieli</option>
+                    </select>
+                </p>
+
+                <button type="button" name="button" onClick="laheta()">Lähetä</button>
+            </form>
+        </fieldset>
+
+    </main>
+    <script src="script.js" type="text/javascript"></script>
+</body>
+</html>
