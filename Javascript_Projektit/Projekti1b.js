@@ -10,7 +10,7 @@ function emailIsValid(email) {
 
 }
 
-function validateForm() {
+function validateForm(numb) {
 
     var z = document.forms["lomake"]["numb"].value;
 
@@ -20,4 +20,14 @@ function validateForm() {
 
 }
 
-
+function validateform(name) {
+    var name = document.getElementById.value;
+   
+    if (name == null || name == "") {
+        alert("Kohta ei voi olla tyhjä!");
+        return false;
+    } else if (name.length < 3) {
+        alert("Nisessä pitää olla vähintään 3 kirjainta!.");
+        return false;
+    }
+}  
