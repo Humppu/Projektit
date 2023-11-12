@@ -60,4 +60,6 @@ input::-webkit-outer-spin-button {
   color: #fff;
   cursor: pointer;
   transition: 0.3s;
+  font-size: 15px;
 }
+
