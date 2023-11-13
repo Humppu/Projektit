@@ -8,15 +8,16 @@
 		<title>Arvauspeli</title>
 	</head> 
   <body>
-    <div class="kokonaisuus">
-      <header>Arvaa luvuista 1-10</header>
-      <p class="guess"></p>
-     <div class="input-field">
-        <input type="number" id="guessField" class="guessField"/>
-		<button id="butt" onclick="kokeile()">Kokeile</button> 
-		<button id="butt2" value="reset" onclick="reset()">Aloita uudestaan</button>
-	</div>		
-	  <p>Saat kolme yritystä</p>
-    </div>
+	  <div class="kokonaisuus">
+		  <header>Arvaa luvuista 1-10</header>
+		  <p></p>
+		  <div class="input-field">
+			  <input type="number" id="guessField" class="guessField" />
+			  <button id="butt" onclick="kokeile()">Kokeile</button>
+			  <button id="butt2" value="reset" onclick="reset()">Aloita uudestaan</button>
+		  </div>
+		  <p>Saat kolme yritystä</p>
+		  <p class="attempt"></p>
+	  </div>
   </body>
 </html>
