@@ -1,33 +1,41 @@
-function laheta(email) {
-    var email = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
-    if (emailIsValid(email)) { 
-    }
-    else {
-        alert("Anna oikea sähköpostiosoitteesi");
-        lomake.email.focus();
-        return (false);
-    }
+function laheta() {
+	let name = document.getElementById("name").value;
+	let age = document.getElementById("age").value;	
+	let drop = document.getElementById("drop").value;
+	laji = document.querySelector('input[name="laji"]:checked');
+	miksi = document.querySelector('input[name="miksi"]:checked');
+	let teksti = document.getElementById("teksti").value;
 
+
+	if (name.length < 3) {
+		alert("Kohta ei voi olla tyhjä! Nimessä pitää olla vähintään 3 kirjainta!.");
+	}
+	else if (age == "") {
+		alert("Syötä ikäsi");
+	}	
+	else if (drop == "") {
+		alert("Valitse, taso");
+	}
+	else if (!laji) {
+		alert("Sinun on valittava laji");
+	}
+	else if (!miksi) {
+		alert("Sinun on valittava. Minkä takia harrastat?");
+	}
+		else if (teksti.length == 0) {
+		alert("Kirjoita");
+	}
+	else {
+		alert("Kiitos vastauksestasi");
+	}
+
+	function emailIsValid (mail) {
+		return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(mail)
+	}
+	console.log(emailIsValid(mail))
+
+	if(!emailIsValid(mail)) { 
+		alert("Anna oikea sähköpostiosoitteesi"); 
+	}
 }
 
-function laheta(numb) {
-
-    var z = document.label["lomake"]["numb"].value;
-
-    if (!/^[0-9]+$/.test(z)) {
-        alert("Syötä ikä numeroilla!")
-    }
-
-}
-
-function laheta(name) {
-    var name = document.getElementById.value;
-   
-    if (name == null || name == "") {
-        alert("Kohta ei voi olla tyhjä!");
-        return false;
-    } else if (name.length < 3) {
-        alert("Nisessä pitää olla vähintään 3 kirjainta!.");
-        return false;
-    }
-}  
