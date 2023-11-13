@@ -1,15 +1,20 @@
 
         let y = Math.floor(Math.random() * 10 + 1);
         let guess = 1;
+        let voitot = 0;
+        let tappiot = 0;
 
-function kokeile() {
+        document.getElementById("t1").innerHTML = voitot;
+        document.getElementById("t2").innerHTML = tappiot;
 
+        function kokeile() {
             let x = document.getElementById("guessField").value;
 
                 if (x == y) {
                     alert("Onneksi olkoon!!! Arvasit oikein "
                         + guess + " GUESS ");
-                         butt.disabled = true;
+                        voitot++;
+                        document.getElementById("t1").innerHTML = voitot;
 
                 }
 
@@ -17,7 +22,8 @@ function kokeile() {
                     
                     if (guess == 4){
                         alert("GAME OVER")
-                        butt.disabled = true;
+                        tappiot++;
+                        document.getElementById("t2").innerHTML = tappiot;
                     }
                     else{
                         alert("OOPS SORRY!! Kokeile pienemp‰‰ numeroa");
@@ -28,7 +34,8 @@ function kokeile() {
                     
                     if (guess == 4){
                         alert("GAME OVER")
-                        butt.disabled = true;
+                        tappiot++;
+                        document.getElementById("t2").innerHTML = tappiot;
                     }
                     else{
                         alert("OOPS SORRY!! Kokeile isompaa numeroa")
@@ -40,9 +47,9 @@ function kokeile() {
 }
 
 function reset() {
-
-    document.getElementById("guessField").value = '';
-}
+              guess = 1;
+              document.getElementById("guessField").value = '';
+            }
 
 
 
