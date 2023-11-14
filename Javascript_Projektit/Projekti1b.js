@@ -1,16 +1,16 @@
 function laheta() {
-	let name = document.getElementById("name").value;
-	let age = document.getElementById("age").value;	
+	let name = document.getElementById("nimisyotto").value;
+	let age = document.getElementById("ikasyotot").value;	
 	let drop = document.getElementById("drop").value;
 	laji = document.querySelector('input[name="laji"]:checked');
 	miksi = document.querySelector('input[name="miksi"]:checked');
 	let teksti = document.getElementById("teksti").value;
-
+	let mail = document.getElementById("emailsyotto").value; 
 
 	if (name.length < 3) {
 		alert("Kohta ei voi olla tyhjä! Nimessä pitää olla vähintään 3 kirjainta!.");
 	}
-	else if (age == "") {
+	else if (age == !/^[0-9]+$/) {
 		alert("Syötä ikäsi");
 	}	
 	else if (drop == "") {
@@ -29,13 +29,19 @@ function laheta() {
 		alert("Kiitos vastauksestasi");
 	}
 
-	function emailIsValid (mail) {
-		return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(mail)
-	}
-	console.log(emailIsValid(mail))
 
-	if(!emailIsValid(mail)) { 
+
+	function emailIsValid (emailsyotto) {
+		return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(emailsyotto)
+	}
+	console.log(emailIsValid(emailsyotto))
+
+	if (emailIsValid(mail)) {
+		mail ==/^[^\s@]+@[^\s@]+\.[^\s@]+$/}
+	else
+	{ 
 		alert("Anna oikea sähköpostiosoitteesi"); 
+		return (false);
 	}
 }
 
