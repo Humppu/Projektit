@@ -15,9 +15,7 @@
                         + guess + " GUESS ");
                         voitot++;
                         document.getElementById("t1").innerHTML = voitot;
-
                 }
-
                 else if (x > y) {
                     
                     if (guess == 4){
