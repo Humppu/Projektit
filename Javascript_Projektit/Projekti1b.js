@@ -1,6 +1,6 @@
 function laheta() {
 	let name = document.getElementById("nimisyotto").value;
-	let age = document.getElementById("ikasyotot").value;	
+	let age = document.forms["lomake"]["num"].value;
 	let drop = document.getElementById("drop").value;
 	laji = document.querySelector('input[name="laji"]:checked');
 	miksi = document.querySelector('input[name="miksi"]:checked');
@@ -10,8 +10,8 @@ function laheta() {
 	if (name.length < 3) {
 		alert("Kohta ei voi olla tyhjä! Nimessä pitää olla vähintään 3 kirjainta!.");
 	}
-	else if (age == !/^[0-9]+$/) {
-		alert("Syötä ikäsi");
+	else if(!age.match(/^\d+/)) {
+		alert("Syötä ikäsi ja vain numeroilla");
 	}	
 	else if (drop == "") {
 		alert("Valitse, taso");

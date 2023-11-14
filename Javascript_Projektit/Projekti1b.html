@@ -13,7 +13,7 @@
 			<form action = "index.html" method = "post" id="kyselylomake" name="lomake"> 					
 				<p id="nimi">Anna nimesi: <br/> <input type="text" id="nimisyotto"></p> <!--Jos annan liian lyhyen nimen, näen HTML5-vahvistusvirheen.-->
 				<p id="email">Anna sähköpostisi: <br/> <input type="text" id="emailsyotto"></p> <!--Jos annan sähköpostiviestin, jota ei ole muotoiltu oikein, näen HTML5-vahvistusvirheen.-->
-				<p id="ika">Kerro ikäsi: <br/><input type="text" id="ikasyotot"></p> <!--Jos annan muita kuin numeroita edelliseen kenttään, näen HTML5-vahvistusvirheen. Jos annan numeroita numeron syöttöalueen ulkopuolella, jotka on määrittelty min- ja max-määritteillä, näen HTML5-vahvistusvirheen.-->
+				<p id="ika">Kerro ikäsi: <br/><input name="num" type="text" id="ikasyotot"></p> <!--Jos annan muita kuin numeroita edelliseen kenttään, näen HTML5-vahvistusvirheen. Jos annan numeroita numeron syöttöalueen ulkopuolella, jotka on määrittelty min- ja max-määritteillä, näen HTML5-vahvistusvirheen.-->
 <!--Käyttäjän tarina # 10: Nimen, sähköpostiosoitteen ja numeron syöttökentissä lomakkeen sisällä näen vastaavat otsikot, jotka kuvaavat kunkin kentän tarkoitusta seuraavilla tunnuksilla: id = "nimisyotto", id = "emailsyotto" , ja id = "ikasyotot".-->
 
 					<p id="pudotus">Valitse tasosi: </p> 
@@ -26,7 +26,7 @@
 						<option value="en osaa sanoa">En osaa sanoa</option>
 						</select>		
 
-					<p id="laji">Valitse mieluisimmat urheilulajit.</p>
+					<p id="laji">Valitse mieluisin urheilulaji</p>
 						<input type="radio" name="laji" value="jalkapallo">Jalkapallo.<br/>
 						<input type="radio" name="laji" value="jääkiekko">Jääkiekko.<br/> 
 						<input type="radio" name="laji" value="tennis">Tennis.<br/> 
