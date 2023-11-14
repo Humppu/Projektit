@@ -1,0 +1,17 @@
+1)
+p id="ika">Kerro ikäsi: <br/><input name="num" type="text" id="ikasyotot"></p
+
+let age = document.forms["lomake"]["num"].value;
+
+else if(!age.match(/^\d+/)) { 
+	alert("Syötä ikäsi ja vain numeroilla");
+	}
+
+2)
+<p id="ika">Kerro ikäsi: <br/> <input name="num" type="number" id="ikasyotot" min="17" max="100"></p> 
+
+let age = document.getElementById("ikasyotot").value;
+
+else if (age == !/^[0-9]+$/) {
+		alert("Syötä ikäsi");
+	}	
