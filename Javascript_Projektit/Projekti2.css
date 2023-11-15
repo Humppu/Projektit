@@ -13,6 +13,23 @@ body {
   justify-content: center;
   background: #4a98f7;
 }
+p{
+    display: center;
+}
+.nro1 {
+    text-indent: -100px;
+}
+.nro2 {
+    text-indent: -100px;
+}
+#t1 {
+    text-align: center;
+    margin-top: -24px;
+}
+#t2 {
+    text-align: center;
+    margin-top: -24px;
+}
 .kokonaisuus {
   padding: 30px 40px;
   border-radius: 12px;
