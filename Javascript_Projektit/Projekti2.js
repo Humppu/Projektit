@@ -18,7 +18,7 @@
                 }
                 else if (x > y) {
                     
-                    if (guess == 4){
+                    if (guess == 3){
                         alert("GAME OVER")
                         tappiot++;
                         document.getElementById("t2").innerHTML = tappiot;
@@ -30,7 +30,7 @@
                 }
                 else if (x < y){
                     
-                    if (guess == 4){
+                    if (guess == 3){
                         alert("GAME OVER")
                         tappiot++;
                         document.getElementById("t2").innerHTML = tappiot;
