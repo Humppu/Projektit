@@ -1,3 +1,5 @@
+function lahetaVastaukset() {
+
 var yhteensa = 5;
 var pisteet= 0;
 var huom = 0;
@@ -13,7 +15,7 @@ var vastaukset = ["b", "a", "d", "b", "d"];
 var tulokset = document.getElementById("tulokset"); 
 
 
-function lahetaVastaukset() {
+
     for (i = 1; i <= yhteensa; i++) {
         if (eval("k" + i) == null || eval("k" + i) == "") {
             alert("Et vastannut kysymykseen numero: " + i);
@@ -30,7 +32,7 @@ function lahetaVastaukset() {
     }
 
     alert("Sait " + pisteet + "pistett‰, kun maksimi pistem‰‰r‰ oli " + yhteensa); 
-    tulokset.innerHTML = "<h3>Sait <span>" + pisteet + "</span> pistett‰, kun maksimi pistem‰‰r‰ oli <span>" + yhteensa + + "</span></h3>"; 
+    tulokset.innerHTML = "<h3>Sait <span>" + pisteet + "</span> pistett‰, kun maksimi pistem‰‰r‰ oli <span>" + yhteensa + "</span></h3>"; 
     return false; 
 }
     
