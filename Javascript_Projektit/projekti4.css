@@ -33,6 +33,7 @@ input {
     background-color: antiquewhite;
     border: 1.5px solid black;
     border-radius: 5px;
+    padding: 10px;
 }
 
 #butt1 {
@@ -40,12 +41,13 @@ input {
     background-color: antiquewhite;
     border: 1.5px solid black;
     border-radius: 5px;
-    transition: all 1s ease;
+    padding: 10px;
 }
 
 ul{
     text-align: left;
     margin-top: 15px;
+    padding-left: 10px;
 }
 
 li {
@@ -55,19 +57,28 @@ li {
     color: #000;
     border: 1.5px solid black;
     border-radius: 5px;
+    padding: 10px;
+    list-style: none;
 }
 
-li:hover{
-    background-color: slateblue;
-}
-
-li > button {
+li > butt1 {
     border: 1.5px solid black;
     border-radius: 5px;
     float: right;
     color: antiquewhite;
 }
 
+.done {
+    color: #00ff21;
+    background: #51DF70;
+}
 
+.intro{
+    margin: 20px;
+}
+
+.delete {
+    display: none;
+}
 
 
