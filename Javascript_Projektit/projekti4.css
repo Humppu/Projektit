@@ -1,11 +1,11 @@
 body{
-    background-color: #2ac79d;
+    background-color: aquamarine;
     text-align: center;
 }
 
 h1{
     text-transform: capitalize;
-    color: black;
+    color: slategray;
 }
 
 p{
@@ -13,15 +13,15 @@ p{
 }
 
 #eka{
-    color: #c73c2a;
+    color: goldenrod;
 }
 
 #toka{
-    color: #820855;
+    color: deeppink;
 }
 
 #kolmas{
-    color: white;
+    color: thistle;
 }
 
 .container{
