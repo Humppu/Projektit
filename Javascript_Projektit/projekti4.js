@@ -9,6 +9,7 @@ function inputLength() {
     return input.value.length;
 }
 
+
 function luoPaikka() {
     var li = document.createElement("li");
 
