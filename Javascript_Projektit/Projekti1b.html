@@ -11,12 +11,12 @@
 		<h1 id="otsikko">Kyselylomake.</h1>
 				<p id="kuvaus">Täytä tämä lomake jossa on kysely.</p>
 			<form action = "index.html" method = "post" id="kyselylomake" name="lomake"> 					
-				<p>Anna nimesi: <br/> <input type="text" id="nimi" value="Nimi:"></p>
-				<p>Anna sähköpostisi: <br/> <input type="email" id="email" value="Sähköposti:"></p>
-				<p>Kerro ikäsi: <br/><input name="num" type="number" id="ika" value="Ikä:" min="18" max="100"></p> 
+				<label>Anna nimesi: <br/> <input type="text" id="nimi" placeholder="Nimi:"></label>
+				<label>Anna sähköpostisi: <br/> <input type="email" id="email" placeholder="Sähköposti:"></label>
+				<label>Kerro ikäsi: <br/><input name="num" type="number" id="ika" placeholder="Ikä:" min="18" max="100"></label> 
 
 					<p id="pudotus">Valitse tasosi: </p> 
-						<select id="drop" name="pudotus"> 
+						<select id="pudotus" name="pudotus"> 
 						<option value="">(Valitse)</option>
 						<option value="aloittelija">Aloittelija</option>
 						<option value="jatkava">Jatkava</option>
