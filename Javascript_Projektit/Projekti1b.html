@@ -9,11 +9,11 @@
 	<body>
 
 		<h1 id="otsikko">Kyselylomake.</h1>
-				<p id="kuvaus"></p>
+				<p id="kuvaus">Täytä tämä lomake jossa on kysely.</p>
 			<form action = "index.html" method = "post" id="kyselylomake" name="lomake"> 					
 				<p>Anna nimesi: <br/> <input type="text" id="nimi" value="Nimi:"></p>
-				<p>Anna sähköpostisi: <br/> <input type="text" id="email" value="Sähköposti:"></p>
-				<p>Kerro ikäsi: <br/><input name="num" type="text" id="ika" value="Ikä:" min="18" max="100"></p> 
+				<p>Anna sähköpostisi: <br/> <input type="email" id="email" value="Sähköposti:"></p>
+				<p>Kerro ikäsi: <br/><input name="num" type="number" id="ika" value="Ikä:" min="18" max="100"></p> 
 
 					<p id="pudotus">Valitse tasosi: </p> 
 						<select id="drop" name="pudotus"> 
