@@ -11,9 +11,9 @@
 		<h1 id="otsikko">Kyselylomake.</h1>
 				<p id="kuvaus"></p>
 			<form action = "index.html" method = "post" id="kyselylomake" name="lomake"> 					
-				<p id="nimi">Anna nimesi: <br/> <input type="text" id="nimisyotto"></p>
-				<p id="email">Anna sähköpostisi: <br/> <input type="text" id="emailsyotto"></p>
-				<p id="ika">Kerro ikäsi: <br/><input name="num" type="number" id="ikasyotot" min="18" max="100"></p> <!--Jos annan muita kuin numeroita edelliseen kenttään, näen HTML5-vahvistusvirheen. Jos annan numeroita numeron syöttöalueen ulkopuolella, jotka on määrittelty min- ja max-määritteillä, näen HTML5-vahvistusvirheen.-->
+				<p>Anna nimesi: <br/> <input type="text" id="nimi" value="Nimi:"></p>
+				<p>Anna sähköpostisi: <br/> <input type="text" id="email" value="Sähköposti:"></p>
+				<p>Kerro ikäsi: <br/><input name="num" type="text" id="ika" value="Ikä:" min="18" max="100"></p> 
 
 					<p id="pudotus">Valitse tasosi: </p> 
 						<select id="drop" name="pudotus"> 
