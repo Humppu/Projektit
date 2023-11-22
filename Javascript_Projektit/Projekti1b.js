@@ -1,11 +1,11 @@
 function laheta() {
-	let name = document.getElementById("nimisyotto").value;
-	let age = document.getElementById("ikasyotot").value;	
+	let name = document.getElementById("nimi").value;
+	let age = document.getElementById("ika").value;	
 	let drop = document.getElementById("drop").value;
 	laji = document.querySelector('input[name="laji"]:checked');
 	miksi = document.querySelector('input[name="miksi"]:checked');
 	let teksti = document.getElementById("teksti").value;
-	let mail = document.getElementById("emailsyotto").value; 
+	let mail = document.getElementById("email").value; 
 
 	if (name.length < 3) {
 		alert("Kohta ei voi olla tyhjä! Nimessä pitää olla vähintään 3 kirjainta!.");
@@ -34,10 +34,10 @@ function laheta() {
 
 
 
-	function emailIsValid (emailsyotto) {
-		return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(emailsyotto)
+	function emailIsValid (email) {
+		return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)
 	}
-	console.log(emailIsValid(emailsyotto))
+	console.log(emailIsValid(email))
 
 	if (emailIsValid(mail)) {
 		mail ==/^[^\s@]+@[^\s@]+\.[^\s@]+$/}
