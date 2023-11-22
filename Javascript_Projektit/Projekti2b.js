@@ -1,9 +1,15 @@
+function lahetaVastaukset() {
+
 var yhteensa = 5;
 var pisteet = 0;
 var huom = 0;
 
+<<<<<<< HEAD
 var k1 = document.forms["kyselyLomake"]["k1"].value; 
 console.log(k1);
+=======
+var k1 = document.forms["kyselyLomake"]["k1"].value;
+>>>>>>> 897141899cc0f8ec6cf4e46cd590e884ac44d6b7
 var k2 = document.forms["kyselyLomake"]["k2"].value;
 var k3 = document.forms["kyselyLomake"]["k3"].value;
 var k4 = document.forms["kyselyLomake"]["k4"].value;
@@ -12,7 +18,7 @@ var vastaukset = ["b", "a", "d", "b", "d"];
 var tulokset = document.getElementById("tulokset"); 
 
 
-function lahetaVastaukset() {
+
     for (i = 1; i <= yhteensa; i++) {
         if (eval("k"+i) == null || eval("k"+i) == "") {
             alert("Et vastannut kysymykseen numero: " + i);

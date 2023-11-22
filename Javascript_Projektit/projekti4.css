@@ -1,11 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt&display=swap');
+
 body{
-    background-color: aquamarine;
-    text-align: center;
+background-color: #107281;
+text-align: center;
 }
 
-h1{
+h1 {
     text-transform: capitalize;
     color: slategray;
+    font-family: 'Rokkitt', serif;
+    font-size: 50px;
 }
 
 p{
@@ -33,6 +37,8 @@ input {
     background-color: antiquewhite;
     border: 1.5px solid black;
     border-radius: 5px;
+    padding: 10px;
+    width: 300px;
 }
 
 #butt1 {
@@ -40,12 +46,13 @@ input {
     background-color: antiquewhite;
     border: 1.5px solid black;
     border-radius: 5px;
-    transition: all 1s ease;
+    padding: 10px;
 }
 
 ul{
     text-align: left;
     margin-top: 15px;
+    padding-left: 10px;
 }
 
 li {
@@ -55,19 +62,28 @@ li {
     color: #000;
     border: 1.5px solid black;
     border-radius: 5px;
+    padding: 10px;
+    list-style: none;
 }
 
-li:hover{
-    background-color: slateblue;
-}
-
-li > button {
-    border: 1.5px solid black;
+li > butt1 {
     border-radius: 5px;
     float: right;
-    color: antiquewhite;
+    color: #000;
+}
+
+.done {
+    color: #00ff21;
+    background: #51DF70;
+}
+
+.intro{
+    margin: 20px;
 }
 
 
+.delete {
+    display: none;
+}
 
 

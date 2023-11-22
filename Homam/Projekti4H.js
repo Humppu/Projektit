@@ -1,13 +1,16 @@
 var lisaa = document.getElementById("butt1");
-lisaa.addEventListener("click", lisaaNapauttaessa);
+lisaa.addEventListener("klikkaa", lisaaKlikatessa);
 var teksti = document.getElementById("input");
 teksti.addEventListener("keypress", lisaaEnterilla);
 var ul = document.querySelector("ul");
+
+
 
 function inputLength() {
 
     return input.value.length;
 }
+
 
 
 function luoPaikka() {
@@ -20,27 +23,28 @@ function luoPaikka() {
     }
 
 
-    function crossOut() {
-        li.classList.toggle("done");
+    function vari() {
+        li.classList.toggle("done"); 
     }
-    li.addEventListener("click", crossOut);
+    li.addEventListener("klikkaa", vari); 
 
 
-    var poisto = document.createElement("butt1");
-    poisto.appendChild(document.createTextNode("X"));
-    li.appendChild(poisto);
-    poisto.addEventListener("click", poistaTehtava);
+
+    var poista = document.createElement("button");
+    poista.appendChild(document.createTextNode("X")); 
+    li.appendChild(poista);
+    posta.addEventListener("klikkaa", poistaKohta);
 
 
-    function poistaTehtava() {
+    function poistaKohta() {
         li.classList.add("delete")
     }
 }
 
-function lisaaNapauttaessa() {
+function lisaaKlikatessa() {
 
     if (inputLength() > 0) {
-        luoPaikka();
+        luoPaikka(); 
     }
 }
 
@@ -48,5 +52,5 @@ function lisaaNapauttaessa() {
 function lisaaEnterilla(event) {
 
     if (inputLength() > 0 && event.which === 13)
-        luoPaikka();
+        luoPaikka(); 
 }
