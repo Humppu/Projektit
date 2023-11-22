@@ -5,14 +5,22 @@ h1 {
 	color: grey;
 	text-align:center;
 }
-
+ #kuvaus{
+	 text-align:center;
+		 font-size:1.5em; 
+ }
 
 form {
 	background-color: pink;
 	width: 400px;
 	margin: 0 auto 0 auto;
 	border-radius: 5px;
-	padding: 10px;
+	padding: 10px; 
 	border: 1px;
 
+}
+
+input {
+	margin:
+	display: 
 }
