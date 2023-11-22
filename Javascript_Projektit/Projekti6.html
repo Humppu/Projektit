@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Projekti6</title>
+    <meta charset="8">
+    <link rel="stylesheet" href="Projekti6.css">
+    <script type="text/javascript" src="Projekti6.js"></script>
+</head>
+<body>
+    <form action="index.html" method="post">
+
+        <h1>Projekti 6.</h1>
+        
+        <label>Etunimi: <input type="text" id="enimi"></label><br/>
+        <label>Sukunimi: <input type="text" id="snimi"></label><br />
+        <label>Lähiosoite: <input type="text" id="osoite"></label><br />
+        <label>Postinumero: <input type="text" id="pnumero"></label><br />
+        <label>Postitoimipaikka: <input type="text" id="ppaikka"></label><br />
+        <label>Puhelin: <input type="text" id="puhelin"></label><br />
+        <label>Sähköposti: <input type="text" id="sposti"></label><br />
+
+        <p></p>
+
+        <label> <input type="text" placeholder="Hae tästä:" /></label><br/>
+
+        <p></p>
+
+        <input type="button" name="button" onclick="tallenna()" id="tallenna" value="Tallenna tiedot" /><br/>
+        <input type="button" name="button" onclick="hae()" id="hae" value="Hae tiedot" /><br />
+        <input type="button" name="button" onclick="poista()" id="poista" value="Poista tiedot" /><br />
+
+    </form>
+
+    <p id="tiedot"></p>
+
+</body>
+
+</html>
