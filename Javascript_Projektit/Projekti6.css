@@ -1,17 +1,20 @@
-label{
-    display: inline-block;
-    width: 200px;
-    text-align: left;
+html {
+    background-color: #14213d;
 }
 
-#tallenna{
+body {
+    width: 40%;
+    height: 600px;
+    background-color: #ccd5ae;
+    padding: 10px;
+    margin: auto;
+    margin-top:150px; 
+    border-radius: 10px; 
+    border: 3px solid black; 
     
 }
 
-#hae{
-
-}
-
-#poista{
-
+button{
+    float: right; 
+    margin: 10px 0 0 20px; 
 }

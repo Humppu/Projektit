@@ -1,6 +1,5 @@
 
-
-} function emailIsValid(emailsyotto) {
+ function emailIsValid(emailsyotto) {
 	return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(emailsyotto)
 }
 console.log(emailIsValid(emailsyotto))

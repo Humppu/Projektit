@@ -27,7 +27,7 @@ p{
 }
 
 nav {
-    width: 250px; 
+    width: 220px; 
     height: 30px;
     background-color: burlywood;
     margin: auto; 
@@ -37,10 +37,17 @@ nav {
 
     nav li {
         list-style-type: none;
+<<<<<<< HEAD
         padding: 10px;
         float: left;
         text-align: center;
         margin-top: -20px;
+=======
+        padding:5px;
+        float: left;
+        text-align: center;  
+        margin: 0 0 10px 0; 
+>>>>>>> aa7b2e03b5d74a361e4d1c0937a420738660b6b7
     }
 
 #valikko{
@@ -54,6 +61,7 @@ nav {
 }
 
 #butt1 {
+<<<<<<< HEAD
     margin: 0 0 0 360px;
     border-radius: 5px;
     height: 25px;
@@ -66,3 +74,7 @@ nav {
 }
 
 
+=======
+    float:0 0 0 400px; 
+}
+>>>>>>> aa7b2e03b5d74a361e4d1c0937a420738660b6b7
