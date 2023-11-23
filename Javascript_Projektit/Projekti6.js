@@ -58,6 +58,8 @@ function tallenna() {
 }
 	console.log(emailIsValid(sposti))
 
+
+
 	if (emailIsValid(sahkoposti)) {
 	sähköposti == /^[^\s@]+@[^\s@]+\.[^\s@]+$/
 	}
