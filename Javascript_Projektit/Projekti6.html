@@ -10,25 +10,105 @@
     <form action="index.html" method="post">
 
         <h1>Projekti 6.</h1>
-        
-        <label>Etunimi: <input type="text" id="enimi"></label><br/>
-        <label>Sukunimi: <input type="text" id="snimi"></label><br />
-        <label>Lähiosoite: <input type="text" id="osoite"></label><br />
-        <label>Postinumero: <input type="text" id="pnumero"></label><br />
-        <label>Postitoimipaikka: <input type="text" id="ppaikka"></label><br />
-        <label>Puhelin: <input type="text" id="puhelin"></label><br />
-        <label>Sähköposti: <input type="text" id="sposti"></label><br />
+        <table>
 
-        <p></p>
+            <tr>
+                <td>
+                    <label for="Etunimi">Anna etunimi: </label>
+                </td>
+                <td>
+                    <input type="text" id="nimi" placeholder="Nimi">
+                </td>
+            </tr>
 
-        <label> <input type="text" placeholder="Hae tästä:" /></label><br/>
 
-        <p></p>
+            <tr>
+                <td>
+                    <label for="Sahkoposti">Anna sukunimi: </label>
+                </td>
+                <td>
+                    <input type="text" id="snimi" placeholder="Sukunimi">
+                </td>
+            </tr>
+            <br />
 
-        <input type="button" name="button" onclick="tallenna()" id="tallenna" value="Tallenna tiedot" /><br/>
-        <input type="button" name="button" onclick="hae()" id="hae" value="Hae tiedot" /><br />
-        <input type="button" name="button" onclick="poista()" id="poista" value="Poista tiedot" /><br />
 
+            <tr>
+                <td>
+                    <label>Lähiosoite: </label>
+                </td>
+                <td>
+                    <input name="osoite" type="text" id="soite" placeholder="Osoite" min="18" max="100">
+                </td>
+            </tr>
+            <br />
+
+
+
+            <tr>
+                <td>
+                    <label>Postinumero: </label>
+                </td>
+                <td>
+                    <input name="osoite" type="text" id="pnumero" placeholder="Postinumero">
+                </td>
+            </tr>
+
+
+
+            <tr>
+                <td>
+                    <label>Postitoimipaikka: </label>
+                </td>
+                <td>
+                    <input name="ppaikka" type="text" id="ppaikka" placeholder="Postitoimipaikka">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label>Puhelin: </label>
+                </td>
+                <td>
+                    <input name="puhelin" type="text" id="puhelin" placeholder="Puhelinnumero">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label>Sähköposti: </label>
+                </td>
+                <td>
+                    <input name="sahkoposti" type="text" id="sposti" placeholder="Sähköposti">
+                </td>
+            </tr>
+
+
+            <tr>
+                <td>
+                    <label>Kerro ikäsi: </label>
+                </td>
+                <td>
+                    <input name="num" type="number" id="ika" placeholder="Ikä" min="18" max="100">
+                </td>
+            </tr>
+
+
+        </table>
+        <br />
+        <table>
+            <tr>
+                <td>
+        <button onclick="tallenna()" name="button" id="butt1">Tallenna tiedot</button><br />
+               </td>
+                <td>
+        <button onclick="hae()" name="button" id="hae" ¨>Hae tiedot</button><br />
+                </td>
+                <td>
+        <button onclick="poista()" name="button" id="poista" ¨>Poista tiedot</button><br />
+                </td>
+            </tr>
+                    </table> 
     </form>
 
 </body>
