@@ -75,3 +75,41 @@ body {
 	height: 25px;
 	margin: 30px 0 0 50px;
 }
+
+.timer {
+	width: 10%;
+	padding: 10px;
+}
+
+.ajanKaytto {
+	font-family: Arial, Helvetica, sans-serif
+	font-weight: bold;
+	font-size:150%;
+	float:right;
+}
+
+#time {
+	font-family: Arial, Helvetica, sans-serif
+	font-weight: bold;
+	font-size:250%;
+	margin-left:50%;
+}
+
+.klikki {
+	width: 10%;
+	padding: 10px;
+}
+
+.klikkaukset {
+	font-family: Arial, Helvetica, sans-serif
+	font-weight: bold;
+	font-size:150%;
+	margin-left:50%;
+}
+
+#clicks {
+	font-family: Arial, Helvetica, sans-serif
+	font-weight: bold;
+	font-size:250%;
+	margin-left:50%;
+}
