@@ -1,5 +1,4 @@
-  
-  const cards = document.querySelectorAll('.memory-card');
+const cards = document.querySelectorAll('.memory-card, .memory-card2');
 
     let hasFlippedCard = false;
     let lockBoard = false;
