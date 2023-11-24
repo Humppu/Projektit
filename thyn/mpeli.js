@@ -4,6 +4,15 @@ const cards = document.querySelectorAll('.memory-card, .memory-card2');
     let lockBoard = false;
     let firstCard, secondCard;
 
+    let aika = document.getElementById('aika');
+    let sekunnit = 0;
+    let minuutit = 0;
+
+
+    let lasku = setInterval(function () {
+        aika.innerHTML = sekunnit++;
+    }, 1000);
+
   function flipCard() {
    if (lockBoard) return;
     this.classList.add('flip');
