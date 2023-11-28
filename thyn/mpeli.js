@@ -5,15 +5,13 @@ const cards = document.querySelectorAll('.memory-card, .memory-card2');
     let firstCard, secondCard;
 
     let time = document.getElementById('time');
-    let sekunnit = 0;
-    let minuutit = 0;
+    let s = 0;
+    let m = 0;
     let klik = 1;
 
-    //   document.getElementById('clicks').innerHTML= klik;
-        klik++ ;//
 
     let lasku = setInterval(function(){
-      time.innerHTML = sekunnit++;
+      time.innerHTML = s++;
     }, 1000);
 
   function flipCard() {
@@ -30,6 +28,8 @@ const cards = document.querySelectorAll('.memory-card, .memory-card2');
     hasFlippedCard = false;
 
     checkForMatch();
+    document.getElementById('clicks').innerHTML= klik;
+    klik++; 
   }
 
   function checkForMatch() {
