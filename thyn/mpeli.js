@@ -62,16 +62,7 @@ const cards = document.querySelectorAll('.memory-card, .memory-card2');
 
   cards.forEach(card => card.addEventListener('click', flipCard));
 
-  function laheta() {
-  let sel = document.getElementById('valikko')innerHTML;
-  if (sel.value == "2") {
-    window.location.href = "4x4.html";
-  } else if (sel.value == "3") {
-    window.location.href = "4x6.html";
-  }else (sel.value == "4") {
-    window.location.href = "6x6.html";
-  }
-}
+
 
 function laheta() {
 switch(document.getElementById('valikko').value)

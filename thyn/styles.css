@@ -6,7 +6,6 @@
 body {
   height: 100vh;
   margin: auto;
-
   background: burlywood;
 }
 
@@ -17,6 +16,7 @@ body {
 	display: flex;
 	flex-wrap: wrap;
 	perspective: 1000px;
+	margin-top: 70px;
 }
 .memory-card {
 	width: calc(25% - 10px);
@@ -74,25 +74,18 @@ body {
 	border-radius: 5px;
 	height: 30px;
 	width: 100px;
-	margin-left: 450px;
-	margin-top: 20px;
 	font-weight: bold;
-}
-
-div {
-	margin-top: -30px;
 }
 
 .timer {
 	width: 10%;
-	margin-left: 850px;
+	
 }
 
 .ajanKaytto {
 	font-family: Arial, Helvetica, sans-serif;
 	font-weight: bold;
 	font-size: 150%;
-	margin-top: -72px;
 }
 
 #time {
@@ -103,7 +96,6 @@ div {
 
 .klikki {
 	width: 10%;
-	margin-left: 650px;
 }
 
 .klikkaukset {
@@ -116,5 +108,11 @@ div {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 250%;
 	font-weight: bold;
+}
+
+#info {
+	display: flex;
+	margin: 0 auto;
+	justify-content: center;
 }
 
