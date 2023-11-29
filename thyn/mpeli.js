@@ -68,15 +68,15 @@ function laheta() {
 switch(document.getElementById('valikko').value)
 {
 case "2":
-window.location="../Projektit/thyn/4x4.html";
+window.location.replace("./4x4.html");
 break;
 
 case "3":
-window.location="../Projektit/thyn/4x6.html";
+window.location.replace("./4x6.html");
 break;
 
 case "4":
-window.location="../Projektit/thyn/6x6.html";
+window.location.replace("./6x6.html");
 break;
   }
 }
