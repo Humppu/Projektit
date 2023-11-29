@@ -4,16 +4,6 @@ const cards = document.querySelectorAll('.memory-card, .memory-card2');
     let lockBoard = false;
     let firstCard, secondCard;
 
-    let time = document.getElementById('time');
-    let s = 0;
-    //let m = 0;
-    let klik = 1;
-
-
-    let lasku = setInterval(function(){
-      time.innerHTML = s++;
-    }, 1000);
-
   function flipCard() {
    if (lockBoard) return;
     this.classList.add('flip');
@@ -28,8 +18,6 @@ const cards = document.querySelectorAll('.memory-card, .memory-card2');
     hasFlippedCard = false;
 
     checkForMatch();
-    document.getElementById('clicks').innerHTML= klik;
-    klik++; 
   }
 
   function checkForMatch() {
@@ -61,31 +49,3 @@ const cards = document.querySelectorAll('.memory-card, .memory-card2');
   })();
 
   cards.forEach(card => card.addEventListener('click', flipCard));
-
-  function laheta() {
-  let sel = document.getElementById('valikko')innerHTML;
-  if (sel.value == "2") {
-    window.location.href = "4x4.html";
-  } else if (sel.value == "3") {
-    window.location.href = "4x6.html";
-  }else (sel.value == "4") {
-    window.location.href = "6x6.html";
-  }
-}
-
-function laheta() {
-switch(document.getElementById('valikko').value)
-{
-case "2":
-window.location="../Projektit/thyn/4x4.html";
-break;
-
-case "3":
-window.location="../Projektit/thyn/4x6.html";
-break;
-
-case "4":
-window.location="../Projektit/thyn/6x6.html";
-break;
-  }
-}

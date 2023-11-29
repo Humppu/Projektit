@@ -2,6 +2,13 @@ html {
     background-color: #14213d;
 }
 
+<<<<<<< HEAD
+body{
+    text-align: center;
+}
+
+#tallenna{
+=======
 body {
     width: 40%;
     height: 600px;
@@ -11,6 +18,7 @@ body {
     margin-top:150px; 
     border-radius: 10px; 
     border: 3px solid black; 
+>>>>>>> 9eb85f8f121b50b07dcf60dc7aef693e1af3d1fb
     
 }
 
