@@ -2,24 +2,16 @@ html {
     background-color: #14213d;
 }
 
-<<<<<<< HEAD
-body{
-    text-align: center;
-}
 
-#tallenna{
-=======
-body {
+<<<<<<HEAD
+
+body{
     width: 40%;
     height: 600px;
-    background-color: #ccd5ae;
     padding: 10px;
     margin: auto;
     margin-top:150px; 
     border-radius: 10px; 
-    border: 3px solid black; 
->>>>>>> 9eb85f8f121b50b07dcf60dc7aef693e1af3d1fb
-    
 }
 
 button{
@@ -27,8 +19,16 @@ button{
     margin: 10px 0 0 20px; 
 }
 
+
 input{
-    border-radius: 7px; 
+    
     border: 1px solid black;
     margin: 5px; 
+}
+
+#haetut {
+    width: 300px;
+    background-color: #808080;
+    color: black;
+    margin: 0 auto 0 auto;
 }

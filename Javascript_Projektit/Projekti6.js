@@ -1,14 +1,14 @@
 function tallenna() {
-	let etunimi = document.getElementById("enimi").value;
+	let etunimi = document.getElementById("nimi").value;
 	let sukunimi = document.getElementById("snimi").value;
 	let lähiosoite = document.getElementById("osoite").value;
 	let postinumero = document.getElementById("pnumero").value;
 	let postitoimipaikka = document.getElementById("ppaikka").value;
 	let puhelin = document.getElementById("puhelin").value;
-	let sähköposti = document.getElementById("sposti").value;
+	let sahkoposti = document.getElementById("sposti").value;
 	let ika = document.getElementById("ika").value
 
-
+	console.log("sukunimi");
 
 	if (etunimi.length < 3) {
 		alert("Syötä etunimesi, kiitos! (Kohdassa pitää olla vähintään 3 merkkiä");
@@ -47,10 +47,15 @@ function tallenna() {
 		alert("Iän pitää olla 18 ja 100 väliltä!");
 	}
 
+	else if (sähköposti == /^[^\s@]+@[^\s@]+\.[^\s@]+$/){
+		alert("Anna oikea sähköpostiosoitteesi");
+		}
 
 	else {
 		alert("Kiitos, kun täytit lomakkeen!");
+
 	}
+
 
 
 	function emailIsValid(sposti) {
@@ -61,14 +66,59 @@ function tallenna() {
 
 
 	if (emailIsValid(sahkoposti)) {
-	sähköposti == /^[^\s@]+@[^\s@]+\.[^\s@]+$/
+	sahkoposti == /^[^\s@]+@[^\s@]+\.[^\s@]+$/
 	}
 
 
 	else {
-	alert("Anna oikea sähköpostiosoitteesi");
-	lomake.sahkoposti.focus();
+		alert("Anna oikea sähköpostiosoitteesi");
+		lomake.sahkoposti.focus();
 	return (false);
 
 	}
+
+
+}
+
+
+function tallenna() {
+	var nimi = document.getElementById("nimi").value;
+	var snimi = document.getElementById("snimi").value;
+	var osoite = document.getElementById("osoite").value;
+	var pnumero = document.getElementById("pnumero").value;
+	var ppaikka = document.getElementById("ppaikka").value;
+	var puhelin = document.getElementById("puhelin").value;
+	var ika = document.getElementById("ika").value;
+	var sposti = document.getElementById("sposti").value;
+
+	const tiedot = {
+		etunimi: nimi,
+		sukunimi: snimi,
+		lähiosoite: osoite,
+		postinumero: pnumero,
+		postitoimipaikka: ppaikka,
+		puhelinnumero: puhelin,
+		ikä: ika,
+		sähköposti: sposti, 
+	}
+
+	window.localStorage.setItem(nimi, JSON.stringify(tiedot));
+}
+
+
+function poista() {
+	localStorage.clear()
+}
+
+
+
+
+function retrieveRecords() {
+	var key = document.getElementById("nimi").value;
+	var records = localStorage.getItem(nimi)
+	var tallennettu = localStorage.getItem("tiedot"); 
+
+	localStorage.getItem(nimi, JSON.stringify(tiedot)); 
+
+	document.getElementById("haetut").innerHTML = "Hait seuraavat tiedot <br>" + tiedot;
 }
