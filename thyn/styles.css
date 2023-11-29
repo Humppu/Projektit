@@ -68,16 +68,3 @@ body {
 .front-face {
 	transform: rotateY(180deg);
 }
-
-
-.ajanKaytto {
-	font-family: Arial, Helvetica, sans-serif font-weight: bold;
-	font-size: 150%;
-	float: right;
-}
-
-#aika {
-	font-family: Arial, Helvetica, sans-serif font-weight: bold;
-	font-size: 250%;
-	margin-left: 50%;
-}
