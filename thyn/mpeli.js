@@ -3,16 +3,28 @@ const cards = document.querySelectorAll('.memory-card, .memory-card2');
     let hasFlippedCard = false;
     let lockBoard = false;
     let firstCard, secondCard;
-
-    let time = document.getElementById('time');
-    let s = 0;
-    //let m = 0;
     let klik = 1;
+    let timer = document.querySelector(".timer");
+    let second = 0; 
+    let minute = 0; 
+    let hour = 0;
 
+    let interval = setInterval(function(){
+      timer.innerHTML = (minute+": "+second+"");
+      second++;
+     if(second == 60){
+        minute++;
+        second=0;
+     }
+     if(minute == 60){
+        hour++;
+        minute = 0;
+     }
+    },1000);
 
-    let lasku = setInterval(function(){
-      time.innerHTML = s++;
-    }, 1000);
+    function stop() {
+        clearInterval(interval);
+    }
 
   function flipCard() {
    if (lockBoard) return;
