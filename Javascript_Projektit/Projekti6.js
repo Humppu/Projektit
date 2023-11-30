@@ -110,30 +110,3 @@ function poista() {
 }
 
 
-
-
-function hae() {
-	var nimi = document.getElementById("nimi").value;
-	var snimi = document.getElementById("snimi").value;
-	var osoite = document.getElementById("osoite").value;
-	var pnumero = document.getElementById("pnumero").value;
-	var ppaikka = document.getElementById("ppaikka").value;
-	var puhelin = document.getElementById("puhelin").value;
-	var ika = document.getElementById("ika").value;
-	var sposti = document.getElementById("sposti").value;
-
-	const tiedot = {
-		etunimi: nimi,
-		sukunimi: snimi,
-		lähiosoite: osoite,
-		postinumero: pnumero,
-		postitoimipaikka: ppaikka,
-		puhelinnumero: puhelin,
-		ikä: ika,
-		sähköposti: sposti,
-	} 
-
-	window.localStorage.getItem(nimi, JSON.stringify(tiedot)); 
-
-	document.getElementById("haetut").innerHTML = "Hait seuraavat tiedot <br>" + tiedot;
-}
