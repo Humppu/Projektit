@@ -1,0 +1,52 @@
+body{
+    background-color: burlywood;
+}
+
+#board{
+    width: 910px;
+    min-height: 100px;
+    position: relative;
+}
+
+.cardTitle {
+    background-color: burlywood;
+}
+
+.title{
+    background-color: #52460a;
+    text-align: center;
+    color: white;
+    padding: 2px 0px;
+}
+
+#inprogress{
+    left: 302px;
+}
+
+#test{
+    left: 604px;
+}
+
+#done{
+    left: 906px;
+}
+
+#todo, #inprogress, #test, #done{
+    background-color: tan;
+    position: absolute;
+    width: 300px;
+    min-height: 150px;
+    border: 2px solid black;
+}
+
+*[draggable=true]{
+    float: left;
+    min-width: 50px;
+    min-height: 50px;
+    border: 2px solid black;
+    margin: 10px;
+    font-weight: bold;
+    min-height: 60px;
+}
+
+
