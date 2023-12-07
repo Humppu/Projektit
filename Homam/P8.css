@@ -1,25 +1,25 @@
-body{
+body {
     background-color: burlywood;
 }
 
-#board{
+.board {
     width: 910px;
     min-height: 100px;
     position: relative;
 }
 
-.cardTitle{
+.cardTitle {
     background-color: burlywood;
 }
 
-.title{
+.title {
     background-color: #52460a;
     text-align: center;
     color: white;
     padding: 2px 0px;
 }
 
-#inprogress{
+#inprogress {
     left: 302px;
 }
 
@@ -31,15 +31,15 @@ body{
     left: 906px;
 }
 
-#todo, #inprogress, #test, #done{
+#todo, #inprogress, #test, #done {
     background-color: tan;
-    position:absolute;
+    position: absolute;
     width: 300px;
     min-height: 150px;
     border: 2px solid black;
 }
 
-*[draggable=true]{
+*[draggable=true] {
     float: left;
     min-height: 50px;
     min-width: 50px;
@@ -48,3 +48,5 @@ body{
     font-weight: bold;
     min-height: 60px;
 }
+
+
