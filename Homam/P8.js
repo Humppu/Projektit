@@ -13,4 +13,4 @@ function drop(e) {
     e.preventDefault();
     var id = e.dataTransfer.getData("text/plain");
     e.currentTarget.appendChild(document.getElementById(id));
-}
+} 
