@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scrum Board</title>
+    <link rel="stylesheet" href="P8.css">
+</head>
+
+<body>
+    <div class="board">
+        <h1>Scrum Board</h1>
+        <div>
+  
+            <div class="tehtava" id="todo">
+                <div class="title">To Do</div>
+
+                <div class="cardTitle" id="task1" draggable="true" ondragstart="drag(event)" >
+                    <span>1</span>
+                </div>
+
+                <div class="cardTitle" id="task2" draggable="true" ondragstart="drag(event)">
+                    <span>2</span>
+                </div>
+
+                <div class="cardTitle" id="task3" draggable="true" ondragstart="drag(event)">
+                    <span>3</span>
+                </div>
+
+                <div class="cardTitle" id="task4" draggable="true" ondragstart="drag(event)">
+                    <span>4</span>
+                </div>
+            </div>
+
+            <div id="inprogress" class="tehtava" >
+                <div class="title">In Progress</div>
+            </div>
+
+
+            <div id="test" class="tehtava">
+                <div class="title">Testing</div>
+            </div>
+
+            <div id="done" class="tehtava" >
+                <div class="title">Done</div>
+            </div>
+
+        </div>
+    </div>
+            <script src="P8.js"></script>
+</body>
+
+</html>
