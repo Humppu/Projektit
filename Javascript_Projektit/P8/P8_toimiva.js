@@ -34,15 +34,7 @@ function dragLeave(e) {
     e.target.classList.remove("drag-over");
 }
 
-function drop(e) {
-    e.target.classList.remove("drag-over");
 
-    const id = e.dataTransfer.getData("text/plain");
-    const draggable = document.getElementById(id);
-
-    e.target.appendChild(draggable);
-    draggable.classList.remove("hide");
-}
 
 
 
